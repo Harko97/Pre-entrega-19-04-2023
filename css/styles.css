@@ -1,0 +1,93 @@
+/*   colores #563a3a, #efe3de #000000
+font-family: 'Changa One', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Roboto:wght@100&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.header{
+   background-color: #563a3a;
+   display: flex;
+   justify-content: space-between;
+   height: 200px;
+   align-items: center;
+   font-size: 16px;
+   font-style: italic;
+   font-family: 'Changa One', cursive;
+   
+  
+}
+
+
+nav a{
+   list-style: none;
+   text-decoration: none;
+   align-items: end;
+   color: #fff;
+   display: flex;
+}
+
+nav ul{
+   display: flex;
+   gap: 15px;
+   list-style-image: none;   
+}
+.logo img{
+   height: 200px;
+   
+}
+.tarta{
+   display: flex;
+   justify-content: center;
+   height: 850px ;
+   width:auto;
+   background-color:  #efe3de;
+   font-family: 'Changa One', cursive; 
+   font-size: x-large;
+   font-weight: 600px;
+
+}
+
+
+ul{
+   display: flex;
+   justify-content: space-around;
+   background-color: #563a3a;
+}
+a{
+   text-decoration: none;
+   color: #fff;
+   font-family: 'Changa One', cursive;
+}
+li{
+   list-style: none;
+}
+
+.productos{
+   height: 400px;
+   width: 500px;
+   align-items: flex-start;
+   display: flex;
+   
+   border-color: #563a3a;
+   justify-content: space-around;
+   gap: 10px;
+
+   
+  
+}
+.section{
+   height: 1500px;
+   width: 2000px;
+}
+.lorem{font-family: 'Changa One';
+   background-color: aquamarine;
+   color: brown;
+   width: 600px;
+   height: 700px;
+
+}
